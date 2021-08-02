@@ -2,7 +2,6 @@ import { observer } from "mobx-react-lite";
 import React from "react";
 import { Button, Card, Image } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
-import { Activity } from "../../../app/models/activity";
 import { useStore } from "../../../app/stores/store";
 
 

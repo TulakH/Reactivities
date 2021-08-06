@@ -5,6 +5,9 @@
 
 appsettings.json
 
+runAPI.sh
+runClientApp.sh
+
 # User-specific files
 *.rsuser
 *.suo

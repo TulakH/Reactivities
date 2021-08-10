@@ -25,7 +25,7 @@ namespace Application.Activities
             {
                 _context.Activities.Add(request.Activity);
 
-                await _context.SaveChangesAsync(cancellationToken);
+                await _context.SaveChangesAsync();
 
                 return Unit.Value;
             }
